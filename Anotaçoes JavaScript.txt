@@ -1,0 +1,47 @@
+Aula 6
+
+*Data Types (Tipos de Dados)
+
+number
+  infinity
+  NaN
+string
+boolean
+null
+undefined
+object
+  Array
+funtion
+
+
+*Conversão string => número
+
+Number.parseInt(n)    //Inteiros  
+Number.parseFloat(n)  //Reais
+Number(n)             //Automatico 
+
+
+*Conversão número => string
+
+String(n) 
+n.toString()
+
+
+*Formatando String
+
+var s ='JavaScript'
+'Eu estou aprendendo s'     //não faz interpolação
+'Eu estou aprendendo ' + s  //usa concatenação
+`Eu estou aprendendo ${s}`  //usa template string
+
+s.length         //diz quantos caracteres a string tem
+s.toUpperCase()  //joga tudo para 'MAIÚSCULA'
+s.toLowerCase()  //joga tuda para 'minúscula'
+
+*Formatando Números
+
+var n1 = 1545.5
+
+n1.toFixed(2)                   //casas após a virgula
+n1.toFixed(2).replace('.',',')  //casas após a virgula+alteracao de ponto para virgula
+n1.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'}) //Formatacao para moedas.

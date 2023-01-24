@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu primeiro programa...</title>
+    <style> /*CSS*/
+        body{
+            background-color: rgb(73, 124, 235); /*cor de fundo*/
+            color: white; /*cor da letra*/
+            font: normal 20pt Arial; /*tamanho e estilo da fonte*/
+        }
+        h1{
+            color: rgb(209, 209, 54); /*cor do título h1*/
+        }
+    </style>
+</head>
+<body>
+    <h1>Olá, mundo!</h1> <!--Título-->
+    <p>Já me livrei da maldição.</p> <!--Parágrafo-->
+    <script> //JavaScript
+        var n1 = Number(window.prompt('Digite um número:'))
+        var n2 = Number(window.prompt('Digite outro número:'))
+        var soma = n1 + n2
+        window.alert('A soma dos valores é: ' + soma) //concatenado
+        window.alert(`À soma entre ${n1} e ${n2} é igual a ${soma}.`) //template string
+    </script>
+</body>
+</html>
