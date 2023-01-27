@@ -45,3 +45,42 @@ var n1 = 1545.5
 n1.toFixed(2)                   //casas após a virgula
 n1.toFixed(2).replace('.',',')  //casas após a virgula+alteracao de ponto para virgula
 n1.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'}) //Formatacao para moedas.
+
+Aula 09 - DOM
+
+DOM (Document Object Model 'Modelo de objetos para documentos') 
+Eh um conjunto de objetos dentro do navegador que da acesso aos componentes internos do website
+
+Arvore DOM * (Parents/Chields)Elementos
+
+Metodos de acesso - Selecionando:
+
+por Marca = getElementByTagName()
+por Id = getElementById()
+por Nome = getElementsByName()
+por Classe = getElementsByClassName
+por Seletor = querySelector() e querySelectorAll() *pelos Elementos CSS
+
+# = Id
+. = classe
+
+Aula 10 - Eventos DOM
+
+Evento - Eh tudo aquilo que pode acontecer com os elementos.
+
+Ex: 
+mouseenter = mouse entra no elemento
+mousemove  = mouse se move no elemento
+mousedown = mouse aperta e segura no elemento
+mouseup = mouse soltou apos segurar no elemento
+click = mouse click rapido no elemento 
+mouseout = mouse sai do elemento
+
+Funcao = conjunto de codigos q vao ser executados quando o evento ocorrer
+bloco = conjunto de linhas de um codigo
+Ex:
+function acao(param){
+  bloco
+}
+
+
